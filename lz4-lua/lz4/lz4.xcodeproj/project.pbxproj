@@ -1,0 +1,160 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXFileReference section */
+		13F19A402040075C0025313F /* xxhash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xxhash.h; sourceTree = "<group>"; };
+		13F19A412040075C0025313F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		13F19A422040075C0025313F /* lz4hc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lz4hc.c; sourceTree = "<group>"; };
+		13F19A432040075C0025313F /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		13F19A442040075C0025313F /* lz4frame.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lz4frame.c; sourceTree = "<group>"; };
+		13F19A452040075C0025313F /* lz4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lz4.h; sourceTree = "<group>"; };
+		13F19A462040075C0025313F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		13F19A472040075C0025313F /* xxhash.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = xxhash.c; sourceTree = "<group>"; };
+		13F19A482040075C0025313F /* lz4frame_static.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lz4frame_static.h; sourceTree = "<group>"; };
+		13F19A492040075C0025313F /* lz4hc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lz4hc.h; sourceTree = "<group>"; };
+		13F19A4A2040075C0025313F /* lz4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lz4.c; sourceTree = "<group>"; };
+		13F19A4B2040075C0025313F /* liblz4.pc.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = liblz4.pc.in; sourceTree = "<group>"; };
+		13F19A4C2040075C0025313F /* lz4frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lz4frame.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		13F19A3A2040075C0025313F = {
+			isa = PBXGroup;
+			children = (
+				13F19A402040075C0025313F /* xxhash.h */,
+				13F19A412040075C0025313F /* LICENSE */,
+				13F19A422040075C0025313F /* lz4hc.c */,
+				13F19A432040075C0025313F /* Makefile */,
+				13F19A442040075C0025313F /* lz4frame.c */,
+				13F19A452040075C0025313F /* lz4.h */,
+				13F19A462040075C0025313F /* README.md */,
+				13F19A472040075C0025313F /* xxhash.c */,
+				13F19A482040075C0025313F /* lz4frame_static.h */,
+				13F19A492040075C0025313F /* lz4hc.h */,
+				13F19A4A2040075C0025313F /* lz4.c */,
+				13F19A4B2040075C0025313F /* liblz4.pc.in */,
+				13F19A4C2040075C0025313F /* lz4frame.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		13F19A3F2040075C0025313F /* lz4 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 13F19A4D2040075C0025313F /* Build configuration list for PBXLegacyTarget "lz4" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/solyess/Documents/work/Github/lua-lz4/lz4-lua/lz4";
+			dependencies = (
+			);
+			name = lz4;
+			passBuildSettingsInEnvironment = 1;
+			productName = lz4;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		13F19A3B2040075C0025313F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 13F19A3E2040075C0025313F /* Build configuration list for PBXProject "lz4" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13F19A3A2040075C0025313F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13F19A3F2040075C0025313F /* lz4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		13F19A3C2040075C0025313F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		13F19A3D2040075C0025313F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		13F19A4E2040075C0025313F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = lz4;
+			};
+			name = Debug;
+		};
+		13F19A4F2040075C0025313F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = lz4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13F19A3E2040075C0025313F /* Build configuration list for PBXProject "lz4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F19A3C2040075C0025313F /* Debug */,
+				13F19A3D2040075C0025313F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F19A4D2040075C0025313F /* Build configuration list for PBXLegacyTarget "lz4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F19A4E2040075C0025313F /* Debug */,
+				13F19A4F2040075C0025313F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13F19A3B2040075C0025313F /* Project object */;
+}
