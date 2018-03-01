@@ -8,6 +8,7 @@
 
 ## how to used?
 ### c#
+··· c#
 using System;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -98,7 +99,9 @@ internal class Native {
 
 	#endregion
 }
+```
 ### lua (依赖 c#的实现)
+```lua
     ------------------------------------------------------------------------------
     local str = "测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试！";
     local max_buf = 512;
@@ -106,7 +109,7 @@ internal class Native {
     print("压缩解压消耗的时间:",os.clock()-time,"长度:",#val);
     assert(#str == #val,"解压失败！");
     ------------------------------------------------------------------------------
-
+```
 ## content us
 qq:371741579
 email:czjone@126.com
