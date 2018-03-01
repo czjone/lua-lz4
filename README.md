@@ -7,10 +7,25 @@
 
 
 ## how to used?
+* c的直接调用
+```cpp
+     char* rawchar = "想要在C#和C++之间进行字符串传递会涉及到两件事情想要在C#和C++之间进行字符串传递会涉及到两件事情想要在C#和C++之间进行字符串传递会涉及到两件事情想要在C#和C++之间进行字符串传递会涉及到两件事情=>>>>>!";
+    char *outc = (char*)malloc(1000);
+    int ret = UnityLz4Compress(rawchar,strlen(rawchar),outc);
+    std::cout << outc << ":" << strlen(outc);
+    
+    buffer inbufer(outc, ret);
+    ret = Unitylz4Decompress((char*)inbufer.getPtr(),ret,outc);
+    std::string data(outc,ret);
+    std::cout << "buffer len:" << data.length()          << std::endl;
+    std::cout << "strlen len:"<< data   << std::endl;
+    return 0;
+```
 
 ### c#
+* c# 可用下面的方式来使用，入口请看代码的test函数
 
-```cpp
+```c#
 using System;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -103,7 +118,7 @@ internal class Native {
 }
 ```
 ### lua (依赖 c#的实现)
-
+* lua的调用要依赖上面的C# 的实现
 ```lua
     ------------------------------------------------------------------------------
     local str = "测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试！";
