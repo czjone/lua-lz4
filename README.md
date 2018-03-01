@@ -7,9 +7,10 @@
 
 
 ## how to used?
+
 ### c#
 
-```cs
+```cpp
 using System;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -102,6 +103,7 @@ internal class Native {
 }
 ```
 ### lua (依赖 c#的实现)
+
 ```lua
     ------------------------------------------------------------------------------
     local str = "测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试！";
@@ -111,6 +113,8 @@ internal class Native {
     assert(#str == #val,"解压失败！");
     ------------------------------------------------------------------------------
 ```
+
 ## content us
+
 qq:371741579
 email:czjone@126.com
