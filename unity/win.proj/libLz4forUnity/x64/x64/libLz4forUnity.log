@@ -1,0 +1,41 @@
+﻿生成启动时间为 2018/3/1 14:56:29。
+项目“\\vmware-host\Shared Folders\Documents\work\Github\lua-lz4\unity\win.proj\libLz4forUnity\libLz4forUnity.vcxproj”在节点 2 上(Build 个目标)。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"\\vmware-host\Shared Folders\Documents\work\Github\lua-lz4\lz4-lua\lz4" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIBLZ4FORUNITY_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\x64\\" /Fd"x64\x64\vc120.pdb" /Gd /TP /errorReport:prompt ..\..\classes\base64.cc ..\..\classes\buffer.cc ..\..\classes\cellsLz4.cc ..\..\classes\UnityAPI.cc Lz4.cpp Lz4frame.cpp lz4hc.cpp xxhash.cpp
+  base64.cc
+..\..\classes\base64.cc : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  buffer.cc
+\\vmware-host\shared folders\documents\work\github\lua-lz4\unity\classes\buffer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  cellsLz4.cc
+\\vmware-host\shared folders\documents\work\github\lua-lz4\unity\classes\buffer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+..\..\classes\cellsLz4.cc(10): warning C4800: “unsigned int”: 将值强制为布尔值“true”或“false”(性能警告)
+..\..\classes\cellsLz4.cc(42): warning C4101: “info”: 未引用的局部变量
+  UnityAPI.cc
+\\vmware-host\shared folders\documents\work\github\lua-lz4\unity\classes\buffer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Lz4.cpp
+  Lz4frame.cpp
+  lz4hc.cpp
+  xxhash.cpp
+\\vmware-host\Shared Folders\Documents\work\Github\lua-lz4\lz4-lua\lz4\xxhash.c(518): warning C4804: “/”: 在操作中使用类型“bool”不安全
+\\vmware-host\Shared Folders\Documents\work\Github\lua-lz4\lz4-lua\lz4\xxhash.c(529): warning C4804: “/”: 在操作中使用类型“bool”不安全
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"\\vmware-host\Shared Folders\Documents\work\Github\lua-lz4\lz4-lua\lz4" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIBLZ4FORUNITY_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\x64\\" /Fd"x64\x64\vc120.pdb" /Gd /TP /errorReport:prompt dllmain.cpp
+  dllmain.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"\\vmware-host\Shared Folders\Documents\work\Github\lua-lz4\unity\win.proj\libLz4forUnity\x64\x64\libLz4forUnity.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"\\vmware-host\Shared Folders\Documents\work\Github\lua-lz4\unity\win.proj\libLz4forUnity\x64\x64\libLz4forUnity.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\vmware-host\Shared Folders\Documents\work\Github\lua-lz4\unity\win.proj\libLz4forUnity\x64\x64\libLz4forUnity.lib" /MACHINE:X64 /DLL x64\x64\base64.obj
+  x64\x64\buffer.obj
+  x64\x64\cellsLz4.obj
+  x64\x64\UnityAPI.obj
+  x64\x64\dllmain.obj
+  x64\x64\Lz4.obj
+  x64\x64\Lz4frame.obj
+  x64\x64\lz4hc.obj
+  x64\x64\xxhash.obj
+     正在创建库 \\vmware-host\Shared Folders\Documents\work\Github\lua-lz4\unity\win.proj\libLz4forUnity\x64\x64\libLz4forUnity.lib 和对象 \\vmware-host\Shared Folders\Documents\work\Github\lua-lz4\unity\win.proj\libLz4forUnity\x64\x64\libLz4forUnity.exp
+  正在生成代码
+  已完成代码的生成
+  libLz4forUnity.vcxproj -> \\vmware-host\Shared Folders\Documents\work\Github\lua-lz4\unity\win.proj\libLz4forUnity\x64\x64\libLz4forUnity.dll
+已完成生成项目“\\vmware-host\Shared Folders\Documents\work\Github\lua-lz4\unity\win.proj\libLz4forUnity\libLz4forUnity.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:18.68

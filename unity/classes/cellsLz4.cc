@@ -1,3 +1,5 @@
+
+
 #include "cellsLz4.h"
 
 char* CellsLz4::getError(size_t r) {
@@ -19,7 +21,7 @@ char* CellsLz4::getError(size_t r) {
         {
             char* out = (char*)(malloc(bound));
             r = LZ4F_compressFrame(out, bound, (const void*)inbuf.getPtr(), in_len, settings);
-            if (LZ4F_isError(-r)) {
+            if (LZ4F_isError(r)) {
                 FREE(out);
                 return r;
             }
@@ -50,7 +52,7 @@ char* CellsLz4::getError(size_t r) {
                 size_t out_len = OUT_BUFFER_SIZE; //64k
                 size_t advance = p_len;
                 code = LZ4F_decompress(ctx, out, &out_len, p, &advance, NULL);
-                if (LZ4F_isError(-code)) {
+                if (LZ4F_isError(code)) {
                     FREE(out);
                     goto decompression_failed;
                 }

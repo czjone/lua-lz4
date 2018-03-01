@@ -8,17 +8,17 @@ LOCAL_MODULE_FILENAME := libLz4forUnity
 
 
 LOCAL_SRC_FILES := \
-				$(LOCAL_PATH)/../../Classes/base64.cc \
-				$(LOCAL_PATH)/../../Classes/buffer.cc \
-				$(LOCAL_PATH)/../../Classes/cellsLz4.cc \
-				$(LOCAL_PATH)/../../Classes/UnityAPI.cc \
-				$(LOCAL_PATH)/../../../lz4-lua/lz4/lz4.c \
-				$(LOCAL_PATH)/../../../lz4-lua/lz4/lz4frame.c \
-				$(LOCAL_PATH)/../../../lz4-lua/lz4/lz4hc.c \
-				$(LOCAL_PATH)/../../../lz4-lua/lz4/xxhash.c \
+				$(LOCAL_PATH)/../../Classes/base64.cc 			\
+				$(LOCAL_PATH)/../../Classes/buffer.cc 			\
+				$(LOCAL_PATH)/../../Classes/cellsLz4.cc 		\
+				$(LOCAL_PATH)/../../Classes/UnityAPI.cc 		\
+				$(LOCAL_PATH)/../../../lz4-lua/lz4/lz4.c 		\
+				$(LOCAL_PATH)/../../../lz4-lua/lz4/lz4frame.c 	\
+				$(LOCAL_PATH)/../../../lz4-lua/lz4/lz4hc.c 		\
+				$(LOCAL_PATH)/../../../lz4-lua/lz4/xxhash.c 	\
 
-LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes \
-					$(LOCAL_PATH)/../../../lz4-lua/lz4 \
+LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes 				\
+					$(LOCAL_PATH)/../../../lz4-lua/lz4 			\
 
 
 LOCAL_STATIC_LIBRARIES += cocos2d_simulator_static
