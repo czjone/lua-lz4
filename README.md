@@ -5,6 +5,9 @@
 
 ## what ?
 
+## todo
+1.增加unity linux、webgl 的支持
+...
 
 ## how to used?
 
